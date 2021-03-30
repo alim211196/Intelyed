@@ -1,0 +1,145 @@
+.imgdiv{
+    margin: 5px;
+    padding: 5px;
+}
+.IntelyEd{
+    width: 130px;
+}
+.maindiv{
+    padding: 10px;
+    height: 60px;
+  
+   box-shadow: 5px 5px 25px -5px lightgray;
+   border: solid 1px lightgray;
+}
+.searchinput{
+    background-color: transparent;
+    border: 0;
+     font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+     width:362px;
+}
+.MySpan{
+    border: solid 1px lightgray;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 5px;
+  
+}
+.search{
+    width: 12px;
+    height: 12px;
+}
+.MySpan1{
+   float: right;
+}
+.IntelyEdZoom{
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+.IntelyEdZoom:hover {
+    cursor: pointer;
+}
+.IntelyEdSettings{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mixeddiv{
+    display: inline-block;
+    float: right;
+}
+
+ /* .maindiv{
+    display:flex;
+     flex-direction:row;
+    padding: 10px;
+    height: 60px;
+   box-shadow: 5px 5px 25px -5px lightgray;
+   border: solid 1px lightgray;
+}
+
+.imgdiv{
+    width: 70%;
+    margin: 5px;
+    padding: 5px;
+}
+.IntelyEd{
+    width: 130px;
+}
+.mixeddiv{
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+.searchinput{
+    background-color: transparent;
+    border: 0;
+     font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #A7A7A7;
+}
+.MySpan{
+float: left;
+    border: solid 1px lightgray;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 5px;
+  
+}
+.MySpan1{
+  float: right;
+ }
+ .IntelyEdZoom{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  .IntelyEdZoom:hover {
+      cursor: pointer;
+  }
+  .IntelyEdSettings{
+      margin-left: 15px;
+      margin-right: 15px;
+  }  */
+
+  /* .container-fluid{
+
+    height: 60px;
+  
+   box-shadow: 5px 5px 25px -5px lightgray;
+   border: solid 1px lightgray;
+  }
+
+  .mainrow{
+      padding-top:20px ;
+  } */
+
+  /* .mainrow{
+    padding-top:20px ;
+    height: 60px;
+  
+    box-shadow: 5px 5px 25px -5px lightgray;
+    border: solid 1px lightgray;
+  }
+
+  .div1{
+
+  }
+  .div2{
+float: right;
+}
+.div3{
+    float: right;
+}
+.div4{
+    float: right;
+} */

@@ -1,0 +1,498 @@
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+
+
+.nav-menu-new{
+  -moz-transition: width .5s;
+  -ms-transition: width .5s;
+  -o-transition: width .5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  overflow: hidden;
+    background-color: #fff;
+    width: 94px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 25px -5px rgb(36, 35, 35);
+}
+.nav-menu-items1{
+
+}
+.navbar-toggle1{
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+    width: 94px;
+    margin-top: 16px;
+}
+.IntelyEdusericon1{
+    margin-left: 18px;
+    height: 56px;
+    width: 56px;
+    margin-bottom: 6px;
+}
+.iEdbackarrow1{
+    margin-left: 5px;
+    width: 10px;
+    height: 6px;
+}
+.iEduparrow1{
+    margin-left: 5px;
+    width: 10px;
+    height: 6px;
+}
+.user-details-li1{
+  list-style: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #545454;
+}
+.btn-upload1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-top: 257px;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+    
+}
+.uploadRes1{
+    width: 74px;
+    height: 40px;
+    border-radius: 5px;
+   background-color: #A100FF;
+   color: white;
+   border:none;
+   font-family: Roboto;
+    font-size: 13px;
+    margin-left: -10px;
+  margin-bottom: 15%;
+  margin-left: 10px;
+}
+.iEdupload1{
+    margin-top: -5px;
+    width: 16px;
+    height: 16px;
+
+}
+.btnlogout1{
+    width: 94px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #A100FF;
+    margin-bottom: -10px;
+}
+.iEdLogout1{
+    margin-left: 10px;
+    margin-left: 25px;
+}
+
+.nav-Dashboard1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Dashboard1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #FCD46F;
+  }
+  .nav-Dashboard1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 18px;
+  }
+  .nav-Dashboard1 a:hover {
+    background-color: #FCD46F;
+    color: white;
+    
+  }
+  .nav-Dashboard1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 18px;
+    content: url('../../assets/Icons/iEdDashboardNew.png');
+  }
+.nav-Classes1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Classes1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #71BC4E;
+  }
+  .nav-Classes1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+  }
+
+  .nav-Classes1 a:hover {
+    background-color: #71BC4E;
+    color: white;
+  }
+  .nav-Classes1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+    content: url('../../assets/Icons/iEdClassNew.png');
+  }
+.nav-Teams1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Teams1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #F28080;
+  }
+  .nav-Teams1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 25.67px;
+  }
+
+  .nav-Teams1 a:hover {
+    background-color: #F28080;
+    color: white;
+  }
+  .nav-Teams1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 25.67px;
+    content: url('../../assets/Icons/iEdTeamNew.png');
+  }
+
+.nav-School1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-School1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #E07CD0;
+  }
+  .nav-School1 img {
+    margin-left: 18px;
+     height: 18px;
+    width: 22.5px;
+  }
+
+  .nav-School1 a:hover {
+    background-color: #E07CD0;
+    color: white;
+  }
+  .nav-School1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+    content: url('../../assets/Icons/iEdSchoolNew.png');
+  }
+
+
+.nav-Resources1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Resources1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #21D2DD;
+  }
+  .nav-Resources1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 20.21px;
+  }
+
+  .nav-Resources1 a:hover {
+    background-color: #21D2DD;
+    color: white;
+  }
+
+  .nav-Resources1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 20.21px;
+    content: url('../../assets/Icons/iEdResourceNew.png');
+  }
+
+.nav-Assessments1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Assessments1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #725BFF;
+  }
+  .nav-Assessments1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 22px;
+  }
+
+  .nav-Assessments1 a:hover {
+    background-color: #725BFF;
+    color: white;
+  }
+  .nav-Assessments1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22px;
+    content: url('../../assets/Icons/iEdAssessmentNew.png');
+  }
+.nav-Rubrics1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Rubrics1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #B1EC67;
+  }
+  .nav-Rubrics1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 21px;
+  }
+
+  .nav-Rubrics1 a:hover {
+    background-color: #B1EC67;
+    color: white;
+  }
+  .nav-Rubrics1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 21px;
+    content: url('../../assets/Icons/iEdRubricsNew.png');
+  }
+
+.nav-Reports1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+}
+.nav-Reports1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #DF1824;
+  }
+  .nav-Reports1 img {
+    margin-left: 18px;
+    height: 18px;
+    width: 24px;
+  }
+
+  .nav-Reports1 a:hover {
+    background-color: #DF1824;
+    color: white;
+  }
+
+  .nav-Reports1 a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 24px;
+    content: url('../../assets/Icons/iEdReportsNew.png');
+  }
+
+.nav-Map1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Map1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #A796EB;
+  }
+  .nav-Map1 img {
+    margin-left: 18px;
+    height: 20px;
+    width: 18px;
+  }
+
+  .nav-Map1 a:hover {
+    background-color: #A796EB;
+    color: white;
+  }
+  .nav-Map1 a:hover img { 
+    margin-left: 18px;
+    height: 20px;
+    width: 18px;
+    content: url('../../assets/Icons/iEdVAMNew.png');
+  }
+
+.nav-Standards1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Standards1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #85C3E7;
+  }
+  .nav-Standards1 img {
+    margin-left: 18px;
+    height: 18.91px;
+    width: 13px;
+  }
+
+  .nav-Standards1 a:hover {
+    background-color: #85C3E7;
+    color: white;
+  }
+  
+  .nav-Standards1 a:hover img { 
+    margin-left: 18px;
+    height: 18.91px;
+    width: 13px;
+    content: url('../../assets/Icons/iEdStandardNew.png');
+  }

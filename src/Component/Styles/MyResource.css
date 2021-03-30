@@ -1,0 +1,314 @@
+.myresources-head-li{
+    background-color: #21D2DD;
+    list-style: none;
+    height: 45px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.iEdbooks{
+   float: left;
+   margin-top: 2px;
+   margin-left: 10px;
+}
+.myresources-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.myresources-learnmore{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.myresources{
+    width:420px;
+    height: 440px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px #21D2DD;
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+}
+
+.myresources-expand{
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+    width:620px;
+    height: 440px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: solid 1px #21D2DD;
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+}
+
+
+.MyResource-maindiv{
+    display:flex; flex-direction:row;
+    padding: 20px;
+}
+
+.MyAssessments-div{
+    width: 50%;
+    padding: 5px;
+    border-right: solid 1px lightgray;
+   
+}
+
+
+
+.MyAssessments-main-li{
+    list-style: none;
+}
+.iEdMyAssessments{
+    width: 16px;
+    height: 20px;
+}
+.MyAssessments-main-span{
+    color: #21D2DD;
+    padding-left: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+text-decoration: none;
+display: inline-block;
+font-family: Roboto;
+
+}
+.MyAssessments-main-li1{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.iEdMyAssessments1{
+    width: 9px;
+    height: 12px;
+}
+
+.MyAssessments-main-span1{
+    font-family: Roboto;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.MyAssessments-main-li2{
+    list-style: none;
+    margin-top: 10px;
+}
+.MyAssessments-main-span2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A100FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.MyRubrics-div{
+    width: 50%;
+    padding: 5px 30px;
+}
+.MyRubrics-main-li{
+    list-style: none;
+}
+
+.iEdRubrics{
+    width: 16px;
+    height: 20px;
+}
+.MyRubrics-main-span{
+    color: #21D2DD;
+    padding-left: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+text-decoration: none;
+display: inline-block;
+font-family: Roboto;
+
+}
+.MyRubrics-main-li1{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.iEdRubrics1{
+    width: 9px;
+    height: 12px;
+}
+
+.MyRubrics-main-span1{
+    font-family: Roboto;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+.MyRubrics-main-li2{
+    list-style: none;
+    margin-top: 10px;
+}
+.MyRubrics-main-span2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A100FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.MyResource-Btn-row1{
+    display:flex; flex-direction:row;
+padding-top: 5px;
+}
+.MyResource-Btn1{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #D4FCFF;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.iEdAssLibrary{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+ 
+}
+.MyResource-Btn1-span{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+text-transform: capitalize;
+margin-left: 10px;
+}
+.iEdGroupBlue{
+    width: 20px;
+    height: 20px; 
+    float: right;
+    margin: 4px;
+}
+
+.MyResource-Btn2{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #D4FCFF;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.MyResource-Btn-row2{
+    display:flex; flex-direction:row;
+    padding-top: 5px;
+}
+
+.MyResource-Btn3{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #D4FCFF;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.MyResource-Btn4{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #D4FCFF;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.iEdArrowBlue{
+    width: 6px;
+    height: 9px;
+    margin-top: -1px;
+  }
+
+  @media screen and (min-width:1200px) and (max-width: 1344px) {
+    .myresources-expand {
+        width:620px;
+    
+    }
+    .myresources {
+        width: 350px;
+    }
+    .myresources  .myresources-title {
+        font-size: 13px;
+        margin-left: 5px;
+    
+    }
+    .myresources   .myresources-learnmore {
+        font-size: 10px;
+        margin-top: 8px;
+        margin-right: 0px;
+    }
+    .myresources   .MyAssessments-div {
+        padding: 0px;
+    }
+    .myresources  .MyRubrics-div {
+        padding: 0px 20px;
+    }
+    .myresources .MyResource-Btn1 {
+        margin-left: 10px;
+    
+    }
+    .myresources .MyResource-Btn3 {
+        margin-left: 10px;
+    
+    }
+    .myresources  .MyResource-Btn1-span { 
+        font-size: 11px;
+        margin-left: 5px;
+    }
+    .myresources  .iEdAssLibrary {
+        margin-left: 5px;
+    }
+    .myresources  .MyResource-Btn-row1 {
+        padding-top: 15px;
+    }
+}
+

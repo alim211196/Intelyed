@@ -1,0 +1,458 @@
+/* MyTeams class*/
+.myteams-head-li{
+    background-color: #F28080;
+    list-style: none;
+    height: 45px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.iEdMyTeam{
+   float: left;
+   margin-top: 6px;
+   margin-left: 10px;
+}
+.myteams-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.myteams-time{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    background-color: #F28080;
+    border-color: #F28080;
+}
+
+.myteams-dropdown-btn{
+    background-color: #F28080;
+    color: white;
+    width: 165px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    border: none;
+}
+.myteams-arrow-img{
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.myteams-dropdown-ul{
+   margin-left: 160px;
+   margin-top: 11px;
+    background-color: #fff;
+    width: 220px;
+    height: 249px;
+    position: absolute;
+    box-shadow: 0px 0px 25px -10px rgb(36 35 35);
+}
+.Myteamsupperarrow{
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 30px;
+  }
+ .myteams-dropdown-li{
+     color: black;
+     background-color: white;
+    list-style: none;
+    margin-left: -35px;
+    padding: 5px;
+    height: 40px;
+    cursor: pointer;
+ }
+ .myteams-dropdown{
+    height: 20px;
+    width: 20px;
+    color: #F28080;
+    float: left;
+    margin-top: 3px;
+ }
+ .myteamspan1{
+ 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #7D8995;
+        margin-left: 10px;
+        cursor: pointer;
+ }
+ .dropdowndiv{
+    margin-top: 10px;
+}
+.myteams-clearspan{
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 8px;
+    margin-left: -25px;
+    cursor: pointer;
+    color: #F28080;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    margin-left: -35px;
+}
+.myteams-clearspan:disabled{
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 8px;
+    margin-left: -25px;
+    cursor: pointer;
+    color: #A7A7A7;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    margin-left: -35px;
+}
+.myteams-viewselected{
+    float: right;
+    margin-right: 10px;
+    width: 95px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    background: #F28080;
+    border-radius: 2px;
+    color: #FFFFFF;
+    border: none;
+}
+
+ .myteams-viewselected:disabled{
+    float: right;
+    margin-right: 10px;
+    width: 95px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    background: #A7A7A7;
+    border-radius: 2px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.myteams-dropdown-li input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border:1px solid darkgray;
+    border-radius:50%;
+    outline:none;
+    border-color: #F28080;
+  }
+  
+  .myteams-dropdown-li  input[type='checkbox']:hover {
+    background-color: #F28080;
+    content: url('../../assets/Icons/Dropdowncorrect.svg');
+    padding: 4px;
+    cursor: pointer;
+    box-shadow:0 0 5px 0px #F28080;
+  }
+  
+  .myteams-dropdown-li input[type='checkbox']:before {
+    content:'';
+    display:block;
+    width: 90%;
+    height: 90%;
+    margin: 6%;    
+    border-radius:50%; 
+  }
+  .myteams-dropdown-li input[type='checkbox']:checked:before {
+    background:#F28080;
+  }
+
+  .MyTeams-Dropdowncorrect{
+    margin-left: -14px;
+    margin-top: -3px;
+  }
+
+.myteams-learnmore{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.myteams{
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+    width:420px;
+    height: 440px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px #F28080;
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+    
+}
+.myteams-expand{
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+    width:620px;
+    height: 440px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: solid 1px #F28080;
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+}
+
+
+
+.Myteams-span1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+text-align: right;
+text-transform: capitalize;
+color: #F28080;
+float: left;
+padding: 20px;
+}
+
+.Myteams-span2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #7D8995;
+float: right;
+padding: 20px;
+}
+
+.piechartmain-div{
+    display:flex; 
+    flex-direction:row;
+    padding-top: 60px;
+    
+}
+
+.piechart1-div{
+   
+   width: 200px;
+    height: 125px ;
+    margin-left: -185px;
+}
+.piechart2-div{
+
+    width: 200px;
+    height: 125px ;
+    margin-left: -80px;
+}
+.piechart3-div{
+    
+    width: 200px;
+    height: 125px ;
+    margin-left: -80px;
+}
+
+.sample-span, .Assessment-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #7D8995;
+    margin-top: 10px;
+}
+.piechart1-div-expand{
+    width: 200px;
+    height: 125px ;
+    margin-left: -110px;
+}
+.piechart2-div-expand{
+    width: 200px;
+    height: 125px ;
+    margin-left: -80px;
+}
+.piechart3-div-expand{
+    width: 200px;
+    height: 125px ;
+    margin-left: -80px;
+}
+
+.MyTeams-Btn-row1{
+    display:flex; flex-direction:row;
+    padding-top: 100px;
+}
+
+.MyTeams-Btn1{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #FFE3E3;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.iEdTeamPlans{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+}
+.MyTeams-Btn1-span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.iEdGroupred{
+    width: 20px;
+    height: 20px; 
+    float: right;
+    margin: 4px;
+ 
+}
+
+.MyTeams-Btn2{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #FFE3E3;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.MyTeams-Btn-row2{
+    display:flex; flex-direction:row;
+    padding-top: 5px;
+}
+
+.MyTeams-Btn3{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #FFE3E3;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.MyTeams-Btn4{
+    width: 50%;
+    height: 40px;
+    border-radius:2px ;
+    background: #FFE3E3;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width:1200px) and (max-width: 1344px) {
+    .myteams-expand{
+        width: 620px;
+        height: 440px;
+    }
+    .piechart1-div-expand {
+        width: 200px;
+        height: 125px;
+        margin-left: -145px;
+    }
+    .myteams {
+        width: 350px;
+        height: 440px;
+        margin-left: 20px;
+    }
+    .myteams   .myteams-title {
+        font-size: 13px;
+        margin-left: 5px;
+    
+    }
+    .myteams   .myteams-dropdown-btn {
+        width: 160px;
+        font-size: 12px;
+        margin-left: 0px;
+    
+    }
+    .myteams   .myteams-learnmore {
+        font-size: 10px;
+        margin-top: 8px;
+        margin-right: 0px;
+    }
+    .myteams   .Myteamsupperarrow {
+        margin-left: -36px;
+    }
+    .myteams   .myteams-dropdown-ul {
+        margin-left: 60px;
+    }
+    .myteams   .piechart1-div {
+        width: 200px;
+        height: 125px;
+        margin-left: -220px;
+    }
+    .myteams     .MyTeams-Btn1 {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .myteams  .MyTeams-Btn1-span {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .myteams .MyTeams-Btn2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .myteams .MyTeams-Btn3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .myteams   .MyTeams-Btn4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+

@@ -1,0 +1,848 @@
+
+/* Sidenav bar css*/
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+        
+    background-color: #fff;
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20px;
+    left: -100%;
+    box-shadow: 5px 5px 25px -5px rgb(36, 35, 35);
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+  }
+  
+  .nav-menu.active {
+    left: 0px;
+    transition: min-width 0.2s;
+    min-width: 64px;
+    border-top-right-radius: 10px;
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    overflow: hidden;
+  }
+  
+  .navbar-toggle {
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+    width: 250px;
+    margin-top: 10px;
+  }
+  .mytitlespan {
+    margin-left: 30px;
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+text-transform: capitalize;
+
+  }
+  .IntelyEdusericon{
+    margin-left: 18px;
+    height: 56px;
+    width: 56px;
+  }
+  .containerspan{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  #p1{
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+text-transform: capitalize;
+color: #545454;
+  }
+
+  #p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #545454;
+    margin-top: -13px;
+  
+  }
+.userdetails-div{
+  opacity: 1;
+  transition: opacity 1s;
+}
+  .user-details-li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #545454;
+  }
+
+  .iEdbackarrow{
+    margin-left: 70px;
+    width: 10px;
+    height: 6px;
+    margin-top: 5px;
+  }
+
+  .iEduparrow{
+    margin-left: 70px;
+    width: 10px;
+    height: 6px;
+    margin-top: 5px;
+  }
+.btn-upload{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-top: 257px;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+}
+
+
+.uploadRes{
+  width: 188px;
+  height: 40px;
+  border-radius: 5px;
+ background-color: #A100FF;
+ color: white;
+ border:none;
+ font-family: Roboto;
+  font-size: 13px;
+  margin-left: -10px;
+margin-bottom: 15%;
+margin-left: 30px;
+}
+
+.iEdupload{
+    margin-top: -5px;
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+}
+.btnlogout {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #A100FF;
+    margin-bottom: -10px;
+  }
+  .logout{
+    color: #A100FF;
+    font-size: 16px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-family: Roboto;
+  }
+  
+  .iEdLogout{
+    margin-left: 10px;
+    margin-left: 25px;
+  }
+  .nav-Dashboard {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Dashboard a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #FCD46F;
+  
+  }
+  .nav-Dashboard img {
+    margin-left: 18px;
+    height: 18px;
+    width: 18px;
+ 
+  }
+  .nav-Dashboard a:hover {
+    background-color: #FCD46F;
+    color: white;
+   
+  }
+  .nav-Dashboard a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 18px;
+    content: url('../../assets/Icons/iEdDashboardNew.png');
+  }
+
+
+  .nav-Classes {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Classes a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #71BC4E;
+  }
+  .nav-Classes img {
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+
+  }
+  .nav-Classes a:hover {
+    background-color: #71BC4E;
+    color: white;
+  }
+  .nav-Classes a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+    content: url('../../assets/Icons/iEdClassNew.png');
+  }
+  .nav-Teams {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Teams a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #F28080;
+  }
+  .nav-Teams img {
+    margin-left: 18px;
+    height: 18px;
+    width: 25.67px;
+  }
+
+  .nav-Teams a:hover {
+    background-color: #F28080;
+    color: white;
+  }
+
+  .nav-Teams a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 25.67px;
+    content: url('../../assets/Icons/iEdTeamNew.png');
+  }
+
+
+  .nav-School {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-School a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #E07CD0;
+  }
+  .nav-School img {
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+  }
+
+  .nav-School a:hover {
+    background-color: #E07CD0;
+    color: white;
+  }
+  
+  .nav-School a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22.5px;
+    content: url('../../assets/Icons/iEdSchoolNew.png');
+  }
+
+  .nav-Resources {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Resources a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #21D2DD;
+  }
+  .nav-Resources img {
+    margin-left: 18px;
+    height: 18px;
+    width: 20.21px;
+  }
+
+  .nav-Resources a:hover {
+    background-color: #21D2DD;
+    color: white;
+  }
+  .nav-Resources a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 20.21px;
+    content: url('../../assets/Icons/iEdResourceNew.png');
+  }
+
+  .nav-Assessments {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Assessments a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #725BFF;
+  }
+  .nav-Assessments img {
+    margin-left: 18px;
+    height: 18px;
+    width: 22px;
+  }
+
+  .nav-Assessments a:hover {
+    background-color: #725BFF;
+    color: white;
+  }
+  .nav-Assessments a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 22px;
+    content: url('../../assets/Icons/iEdAssessmentNew.png');
+  }
+
+  .nav-Rubrics {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Rubrics a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #B1EC67;
+  }
+  .nav-Rubrics img {
+    margin-left: 18px;
+    height: 18px;
+    width: 21px;
+  }
+
+  .nav-Rubrics a:hover {
+    background-color: #B1EC67;
+    color: white;
+  }
+  .nav-Rubrics a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 21px;
+    content: url('../../assets/Icons/iEdRubricsNew.png');
+  }
+
+  .nav-Reports {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Reports a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #DF1824;
+  }
+  .nav-Reports img {
+    margin-left: 18px;
+    height: 18px;
+    width: 24px;
+  }
+
+  .nav-Reports a:hover {
+    background-color: #DF1824;
+    color: white;
+  }
+  
+  .nav-Reports a:hover img { 
+    margin-left: 18px;
+    height: 18px;
+    width: 24px;
+    content: url('../../assets/Icons/iEdReportsNew.png');
+  }
+
+  .nav-Map {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Map a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #A796EB;
+  }
+  .nav-Map img {
+    margin-left: 18px;
+    height: 20px;
+    width: 18px;
+  }
+
+  .nav-Map a:hover {
+    background-color: #A796EB;
+    color: white;
+  }
+
+  .nav-Map a:hover img { 
+    margin-left: 18px;
+    height: 20px;
+    width: 18px;
+    content: url('../../assets/Icons/iEdVAMNew.png');
+  }
+
+  
+  .nav-Standards {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -12px;
+   
+  }
+  
+  .nav-Standards a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: solid 1px lightgray;
+    border-left: solid 4px #85C3E7;
+  }
+  .nav-Standards img {
+    margin-left: 18px;
+    height: 18.91px;
+    width: 13px;
+  }
+
+  .nav-Standards a:hover {
+    background-color: #85C3E7;
+    color: white;
+  }
+  
+  .nav-Standards a:hover img { 
+    margin-left: 18px;
+    height: 18.91px;
+    width: 13px;
+    content: url('../../assets/Icons/iEdStandardNew.png');
+  }
+
+  /*Right Sidenav bar css*/
+
+.rigtnav-menu{
+ 
+  background-color: #fff;
+  width: 250px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 20px;
+  left: -100%;
+  box-shadow: 5px 5px 25px -5px rgb(36, 35, 35);
+  -moz-transition: width .5s;
+  -ms-transition: width .5s;
+  -o-transition: width .5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  overflow: hidden;
+
+}
+
+.nav-right-menu-items{
+
+}
+.Calender-li{
+  width: 50px;
+  height: 40px;
+  align-items: center;
+  list-style: none;
+  background-color: #F2B67F;
+  border-top-left-radius: 10px;
+  padding: 6px 18px;
+
+}
+.Task-li{
+  width: 50px;
+  height: 40px;
+  align-items: center;
+  list-style: none;
+  background-color: #9AB5FA;
+  padding: 6px 19px;
+}
+
+.ComingSoon-li{
+  width: 50px;
+  height: 40px;
+  align-items: center;
+  list-style: none;
+  background-color: #C66EFA;
+  border-bottom-left-radius: 10px;
+  padding: 6px 16px;
+}
+.iEdCalendar{
+  height: 16px;
+  width: 14px;
+}
+.iEdTasks{
+ 
+    height: 16px;
+    width: 14px;
+}
+.iEdComingSoon{
+ 
+    height: 16px;
+    width: 20px;
+  
+}
+
+.nav-right-menu-items{
+
+}
+.rigtnav-menu-active{
+  width: 250px;
+  height: -moz-fit-content;
+  height: fit-content;
+  right: 0;
+  /* transition: min-width 0.2s;
+  /* min-width: 64px; */
+  /* border-top-right-radius: 10px; */
+  /* transition: width .5s;
+  overflow: hidden; */ 
+  /* float: right; */
+  /* display: flex; */
+  justify-content: flex-end;
+  position: absolute;
+  margin-top: 20px;
+  -moz-transition: width .5s;
+  -ms-transition: width .5s;
+  -o-transition: width .5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  overflow: hidden;
+}
+.rigtnav-menu-new{
+  /* -moz-transition: width .5s;
+  -ms-transition: width .5s;
+  -o-transition: width .5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  overflow: hidden; */
+    width: 50px;
+    height: 944px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+}
+.Expand-Cal{
+  list-style: none;
+}
+.Caltitle{
+  background-color: #F2B67F;
+  list-style: none;
+  border-top-left-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+}
+.calspan{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.calspan1{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  float: right;
+  margin-top: 3px;
+}
+.iEdCalendar1{
+  width: 14px;
+  height: 16px;
+  margin-left: 10px;
+}
+.iEdTasks1{
+ 
+  width: 14px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.Tasktitle{
+  background-color: #9AB5FA;
+  list-style: none;
+  border-top-left-radius: 10px;
+  padding: 5px;
+  margin-top: -20px;
+}
+.Expand-Task{
+  box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+  list-style: none;
+  height: 250px;
+}
+.task-li-style{
+  list-style: none;
+  font-family: Nunito;
+font-weight: 600;
+font-size: 13px;
+color: #585858;
+padding-top: 10px;
+line-height: 18px;
+}
+.task-li-viewall{
+  list-style: none;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 13px;
+  color: #9AB5FA;
+  padding-top: 10px;
+}
+
+.Notetitle{
+  background-color: #C66EFA;
+  list-style: none;
+  border-top-left-radius: 10px;
+  padding: 5px;
+  margin-top: -20px;
+}
+.iEdComingSoon1{
+  width: 20px;
+  height: 16px;
+  margin-left: 10px;
+}
+.notespan{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.notespan1{
+  background-color: white;
+  border-radius: 50%;
+  font-size: 13px;
+  padding: 3px;
+  float: right;
+}
+
+.note-li-style{
+  list-style: none;
+  font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+color: #585858;
+padding-top: 10px;
+line-height: 18px;
+}
+
+.note-li-viewall{
+  list-style: none;
+  font-family: Nunito;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #C66EFA;
+  padding-top: 10px;
+}
+.Expand-Note{
+  
+  box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+  list-style: none;
+  height: 380px;
+
+}
+
+.iEdArrow{
+  width: 6px;
+  height: 9px;
+  margin-top: -2px;
+}
+
+.comingsoonspan{
+  background-color: white;
+  border-radius: 50%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #C66EFA;
+  padding: 1px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -2px;
+}
